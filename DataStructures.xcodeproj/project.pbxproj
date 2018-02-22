@@ -13,6 +13,7 @@
 		A2662A3C201FB158003334C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2662A3B201FB158003334C4 /* main.cpp */; };
 		A2662A46201FB19B003334C4 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2662A45201FB19B003334C4 /* Runner.cpp */; };
 		A2662A49201FB1A6003334C4 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2662A47201FB1A6003334C4 /* Controller.cpp */; };
+		A2923A72203F51C400E9586C /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2923A70203F51C400E9586C /* LinkedListTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +32,6 @@
 		A2094565202CDB01002891AF /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		A213CE702024F5220017CAA8 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		A213CE712024F5220017CAA8 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
-		A213CE742024F9EC0017CAA8 /* CrimeData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
 		A213CE752024F9F20017CAA8 /* CrimeData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
 		A213CE762024FA0D0017CAA8 /* crime.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = crime.csv; path = ../../../../Downloads/crime.csv; sourceTree = "<group>"; };
 		A221FA65202A2D7300C24BF1 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		A2662A45201FB19B003334C4 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		A2662A47201FB1A6003334C4 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		A2662A48201FB1A6003334C4 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		A2923A70203F51C400E9586C /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
+		A2923A71203F51C400E9586C /* LinkedListTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedListTester.hpp; sourceTree = "<group>"; };
 		A2BF92BD20360F3C00286D70 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		A2BF92C020360F5100286D70 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		A2BF92C320360F6900286D70 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
@@ -74,7 +76,6 @@
 			children = (
 				A213CE762024FA0D0017CAA8 /* crime.csv */,
 				A213CE752024F9F20017CAA8 /* CrimeData.cpp */,
-				A213CE742024F9EC0017CAA8 /* CrimeData.hpp */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -112,6 +113,8 @@
 			children = (
 				A221FA6C202A33E000C24BF1 /* ArrayTester.cpp */,
 				A221FA6D202A33E000C24BF1 /* ArrayTester.hpp */,
+				A2923A70203F51C400E9586C /* LinkedListTester.cpp */,
+				A2923A71203F51C400E9586C /* LinkedListTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				A2662A49201FB1A6003334C4 /* Controller.cpp in Sources */,
 				A2662A46201FB19B003334C4 /* Runner.cpp in Sources */,
 				A221FA67202A2D7300C24BF1 /* Timer.cpp in Sources */,
+				A2923A72203F51C400E9586C /* LinkedListTester.cpp in Sources */,
 				A221FA6E202A33E000C24BF1 /* ArrayTester.cpp in Sources */,
 				A213CE722024F5220017CAA8 /* FileController.cpp in Sources */,
 			);
