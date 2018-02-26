@@ -9,13 +9,13 @@
 #ifndef LinearNode_hpp
 #define LinearNode_hpp
 
-#include <Node.hpp>
+#include "Node.hpp"
 
 template <class Type>
 class LinearNode : public Node<Type>
 {
 protected:
-    LinearNode<Type>v * next;
+    LinearNode<Type> * next;
 public:
     LinearNode();
     LinearNode(Type data);

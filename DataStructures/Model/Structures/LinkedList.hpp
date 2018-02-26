@@ -1,3 +1,4 @@
+
 //
 //  LinkedList.hpp
 //  DataStructures
@@ -60,7 +61,7 @@ void LinkedList<Type> :: add(Type item)
     }
     else
     {
-        this->end->setNextNode(newdData);
+        this->end->setNextNode(newData);
     }
     
     this->end = newData;
