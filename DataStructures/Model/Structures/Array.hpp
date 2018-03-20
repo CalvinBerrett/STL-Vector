@@ -31,7 +31,7 @@ public:
     
     int getSize() const;
     Type getFromIndex(int index);
-    vd setAtindex(int index, Type data);
+    void setAtIndex(int index, Type data);
 };
 
 template <class Type>
@@ -57,7 +57,7 @@ Array<Type> :: Array(const Array<Type> & toCopy)
 }
 
 template <class Type>
-Array<Type> :: `Array()
+Array<Type> :: ~Array()
 {
     cout << "About to delte teh structure" << endl;
     delete [] internalArray;
@@ -71,13 +71,13 @@ Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
     {
         if (size != toAssign.getSize())
         {
-            delete [] internalAray;
+            delete [] internalArray;
             size = toAssign.getSize();
             internalArray = new Type [size];
         }
         for (int index = 0; index < size; index++)
         {
-            internalray[index] = toAssign[index];
+            internalArray[index] = toAssign[index];
         }
         
     }
@@ -107,7 +107,7 @@ int Array<Type> :: getSize() const
 template <class Type>
 void Array<Type> :: setAtIndex(int pos, Type item)
 {
-    assert(pos >= 0  pos < size);
+    assert(pos >= 0 && pos < size);
     internalArray[pos] = item;
 }
 
