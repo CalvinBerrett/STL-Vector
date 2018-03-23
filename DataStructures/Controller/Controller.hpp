@@ -15,7 +15,7 @@
 #include "FileController.hpp"
 #include "../Model/Structures/Array.hpp"
 #include "../Testers/ArrayTester.hpp"
-// #include "../Testers/TestStacksAndQueues.hpp"
+#include "../Testers/TestingStackAndQueues.hpp"
 #include "../Testers/RecursionTester.hpp"
 
 class Controller
