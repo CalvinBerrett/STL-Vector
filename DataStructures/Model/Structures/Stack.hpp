@@ -34,10 +34,10 @@ Stack<Type> :: Stack() : LinkedList<Type>()
     
 }
 
-template <class Tupe>
+template <class Type>
 Stack<Type> :: ~Stack()
 {
-    while(this0>size > 0)
+    while(this->size > 0)
     {
         pop();
     }
@@ -90,7 +90,7 @@ Type Stack<Type> :: pop()
 }
 
 template <class Type>
-Type Stack<Type> :: removed(int index)
+Type Stack<Type> :: remove(int index)
 {
     assert(index == 0);
     return pop();
