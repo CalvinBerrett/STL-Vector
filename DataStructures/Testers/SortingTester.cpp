@@ -29,7 +29,7 @@ int SortingTester :: partition(vector<CrimeData> & data, int low, int high)
         if (data[index] < pivotValue)
         {
             smallest++;
-            swap(data, smallest,index);
+            swap(data, smallest, index);
         }
     }
     swap(data, smallest + 1, high);

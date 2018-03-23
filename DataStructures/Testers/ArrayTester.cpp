@@ -54,7 +54,7 @@ void ArrayTester :: testAdvancedArray()
     vectorTimer.startTimer();
     cout << test[3425] << endl;
     vectorTimer.stopTimer();
-    vectorTimer.displayerInformation();
+    vectorTimer.displayInformation();
     
     arrayTimer.startTimer();
     cout << data[3425] <<endl;

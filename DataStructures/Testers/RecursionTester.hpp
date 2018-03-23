@@ -13,7 +13,7 @@
 #include <string>
 #include "../Controller/Tools/Timer.hpp"
 
-using namespace std
+using namespace std;
 
 class RecursionTester
 {
@@ -22,7 +22,7 @@ private:
     string mystery(string word);
 public:
     void testRecursionNumbers();
-    void testRecurionString();
+    void testRecursionString();
 };
 
 #endif /* RecursionTester_hpp */

@@ -12,7 +12,7 @@
 #include "../Model/Structures/LinkedList.hpp"
 #include "../Controller/FileController.hpp"
 #include "../Controller/Tools/Timer.hpp"
-#include "../Data/CrimeData.hpp"
+#include "/Users/cber6181/Downloads/CrimeData.cpp"
 #include <iostream>
 
 
@@ -43,7 +43,7 @@ void LinkedListTester :: testListBasics()
     cout << "This loop should print 4 lines" << endl;
     for (int index = 0; index < numbers.getSize(); index++)
     {
-        cout <, numbers.getFromIndex(index) << endl;
+        cout << numbers.getFromIndex(index) << endl;
     }
     
     numbers.remove(0);
@@ -55,7 +55,7 @@ void LinkedListTester :: testListBasics()
 
 }
 
-void LInkedListTester :: testListWithData()
+void LinkedListTester :: testListWithData()
 {
     Timer listTimer;
     
@@ -68,11 +68,11 @@ void LInkedListTester :: testListWithData()
     listTimer.resetTimer();
     cout << "Here is how long it takes to access a random data value" << endl;
     listTimer.startTimer();
-    int randomLocation = (rand() * ramd()) % crimes.getSize();
+    int randomLocation = (rand() * rand()) % crimes.getSize();
     cout << "The random index is " << randomLocation << endl;
     double totalViolentRate = crimes.getFromIndex(randomLocation).getAllViolentRates();
     listTimer.stopTimer();
-    cout << "The random crime stat is: " << totalViolentRate <, " , and here is the time" << endl;
+    cout << "The random crime stat is: " << totalViolentRate << " , and here is the time" << endl;
     listTimer.displayInformation();
 }
 

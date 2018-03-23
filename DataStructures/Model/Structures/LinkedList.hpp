@@ -93,7 +93,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
             for (int position = 0; position < index; position++)
             {
                 previous = current;
-                current = current->getNextode();
+                current = current->getNextNode();
             }
             previous->setNextNode(toBeAdded);
             toBeAdded->setNextNode(current);
