@@ -39,7 +39,7 @@ BinaryTreeNode<Type> :: BinaryTreeNode() : Node<Type>()
     right = nullptr;
 }
 
-template <class Type>
+template <class Type> 
 BinaryTreeNode<Type> :: BinaryTreeNode(Type data) : Node<Type>(data)
 {
     root = nullptr;
