@@ -60,7 +60,7 @@ Array<Type> :: Array(const Array<Type> & toCopy)
 template <class Type>
 Array<Type> :: ~Array()
 {
-    cout << "About to delte teh structure" << endl;
+    cout << "About to delete the structure" << endl;
     delete [] internalArray;
     cout << "Internal array deleted" << endl;
 }
