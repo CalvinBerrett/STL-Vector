@@ -9,7 +9,7 @@
 #ifndef Node_hpp
 #define Node_hpp
 
-#include <studio.h>
+#include <iostream>
 
 
 template <class Type>
